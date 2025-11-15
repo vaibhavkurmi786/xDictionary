@@ -18,7 +18,7 @@ export default function App() {
 
     const trimmed = query.trim().toLowerCase();
     if (!trimmed) {
-      setResult("");
+      setResult("Word not found in the dictionary.");
       return;
     }
 
